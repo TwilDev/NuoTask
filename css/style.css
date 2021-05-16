@@ -1,0 +1,880 @@
+html{
+    margin:0;
+    padding:0;
+}
+
+.body {
+    font-family : 'Sintony';
+    margin : 0;
+    padding-top: 0px;
+}
+
+.header {
+    margin-top : 0;
+    padding-top : 0;
+}
+
+#opener {
+    background-color : #336D41;
+    color : #dfdfdf;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.nav-container {
+    background-color : #336D41;
+}
+
+.navbar {
+  color : #dfdfdf;
+  font-family : 'Sintony';
+  font-weight : bold;
+  background-color : #336D41
+}
+
+.navbar-brand {
+  color : #dfdfdf;
+    padding-left: 0.7rem;
+    
+}
+
+.navbar ul {
+    padding-right : 0.7rem;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    color : #dfdfdf;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.nav-link {
+	margin-bottom: 0!important;
+	padding-left : 4px;
+}
+.user-icon {
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.user-icon-text {
+	 background-color: #dfdfdf;
+    color: #336D41!important;
+    border-radius: 5px 7px 7px 5px;
+	display: inline-block;
+	margin-bottom: 0!important;
+	font-size : 14px;
+	padding-left : 5px;
+}
+
+#overlayNavBtn {
+	font-size : 30px;
+	cursor : pointer
+}
+
+.overlayNav {
+	height: 100%;
+	width: 0;
+	position : fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: white;
+	border-right: 1px solid #C5C5C5;
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.overlayNavContent {
+	position: relative;
+	width: 100%
+	text-align: center;
+	margin-top: 5.8rem;
+}
+
+.overlayNav a {
+	padding: 8px;
+	padding-left: 15px;
+	text-decoration: none;
+	font-size: 28px;
+	color: #212529;;
+	display: inline-block;
+	transition: 0.3s
+}
+
+.overlayNavLink a:hover {
+	color: #dfdfdf;
+	background-color: #336D41;
+}
+
+.overlayNavForm {
+	width: 100%;
+}
+
+#addNewProject {
+	color: #FFF;
+    background-color: #336D41;
+    border: none;
+    padding: 0.3rem;
+	margin-left : 1rem;
+}
+
+.projectName {
+	padding: 0!important;
+	font-size : 18px!important;
+}
+
+.projectName a :hover {
+	color: #dfdfdf;
+	background-color: #336D41;
+}
+
+.overlayNavForm input {
+	padding: 8px;
+	padding-right: 15px;
+	margin-left: 15px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.list-group {
+	width: 100%!important;
+}
+
+#signup-button {
+    background-color : #dfdfdf;
+    color : #336D41;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#intro-body {
+  margin: auto;
+  font-weight : 200;
+  font-size : 24px;
+  margin-bottom : 3rem;
+  text-align : center
+  
+}
+
+#intro-body h1{
+    display : block;
+    font-weight : bold;
+    padding-top : 10rem;
+    margin-bottom : 2rem;
+}
+
+
+#get-started {
+    text-align: center;
+    padding-bottom : 3rem;
+}
+
+#get-started button {
+    background-color: #dfdfdf;
+    color : #336D41;
+    font-weight: 500;
+}
+
+#second-body {
+    margin : auto;
+    font-weight : 200;
+    font-size : 24px;
+    margin-bottom : 3rem;
+    color : #292929;
+    text-align : center;
+}
+
+#second-body h2{
+    display : block;
+    font-weight : bold;
+    margin-top : 2rem;
+    margin-bottom : 2.5rem;
+    text-align : center;
+}
+
+#second-body img {
+    box-shadow: 0 10px 10px rgba(59,111,51,0.12);
+    border-radius: 1rem;
+}
+
+.signin-body {
+    background-color : #336D41;
+    font-family : 'Sintony';
+    margin : 0;
+    padding-top: 0px;
+	padding-bottom: 0px;
+    
+}
+
+#signin-header-container {
+  margin: auto;
+  color : #dfdfdf;
+  font-weight : 200;
+  font-size : 24px;
+  margin-bottom : 1rem;
+  text-align : center
+  
+}
+
+#signin-header-container h1 a {
+	color: #dfdfdf;
+    display : block;
+    font-weight : bold;
+    padding-top : 2rem;
+}
+
+#signin-header-container h1 a : hover {
+	text-decoration : underline;
+}
+
+
+#signin-form-container {
+  margin : auto;
+  font-weight : 200;
+  font-size : 14px;
+  margin-bottom : 3rem;
+  margin-top : 5rem;
+  text-align : left;
+  max-width: 600px;
+}
+
+.signin-form-group {
+  padding-top : 4rem;
+  padding-left : 6rem;
+  margin-left : 5rem;
+  padding-right : 6rem;
+  margin-right : 5rem;
+  padding-bottom : 10rem;
+  border : 2px;
+  border-radius : 4px;
+  background-color : #fff;
+  box-shadow : rgba(0,0,0,0.6) 0 0 15px;
+}
+
+.signin-form-group h2 {
+    text-align : center;
+    font-weight: 700;
+    padding-bottom : 3rem;
+    color : #336D41;
+}
+
+.signin-form-group button {
+    margin : auto;
+    margin-top : 2rem;
+    display : block;
+    background-color: #336d41;
+    font-size : 18px;
+    padding : 0.6rem;
+    color : #dfdfdf;
+}
+
+.signin-form-group p {
+    margin : auto;
+    margin-top : 2rem;
+    text-align: center;
+}
+
+.signin-redirect {
+	color: #61B54D;
+}
+
+.mobile-signin-head {
+	text-align : center;
+	padding-bottom: .7em;
+	display: none;
+}
+
+.mobile-signin-head a {
+	color : #336D41;	
+	font-weight : 600;
+}
+
+.lower-task-nav {
+	display : none;
+    width : 100%;
+    margin-top: 3.4rem;
+    padding-top : 1.5rem;
+    padding-left : 2rem;    
+}
+
+.lower-task-nav ul li {
+    display : inline-block;
+    float : right;
+    padding-right : 0.8rem;
+}
+.lower-task-nav ul li button {
+	padding : 0.2rem;
+}
+
+#your-week-body {
+
+	margin-top : 3.4rem;
+	
+}
+
+#taskaside {
+  height: 100%;
+  max-width: 460px;
+  position: fixed;
+  top: 50;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-right : 40;
+  padding-left : 0;
+  padding-right : 0;
+  border-right : 1px solid #C5C5C5;
+}
+
+#date-nav {
+    margin: 0;
+    margin-top : 0.8rem;
+    padding-bottom : 0.5rem;
+    align-content: center;
+    text-align: center;
+
+}
+
+#date-nav h5 {
+    padding-top : 0.1rem;
+    padding-left : 0.5rem;
+    float : left;
+}
+
+#date-nav a {
+    color : #336d41;
+    display : inline;
+}
+
+#date-nav button {
+	color : #FFF;
+	background-color : #336D41;
+	border : none;
+	padding : 0.3rem;
+}
+
+#low-container {
+    padding-bottom : 6rem;
+}
+
+.task-list-section-container {
+    padding-top: 0.6rem;
+    padding-left : 0.6rem;
+    font-size : 16px;
+}
+
+.task-list-head {
+
+  color: #444;
+  padding: 16px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .task-list-head:hover {
+  background-color: #ccc;
+}
+
+.task-name h6 {
+    color : 52BE68;
+	margin-right : 9rem;
+}
+
+.task-name h6:hover {
+    text-decoration: underline;
+}
+
+#taskaside h4 {
+    padding-top: 1rem;
+}
+
+#testright {
+    height : 100%;
+    max-width : 70px;
+    position : fixed;
+    top : 0;
+    right : 0;
+    background-color: #efefef;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-right : 40;
+}
+
+.task-list {
+    margin-top : 0;
+    padding-top: 0.2rem;
+}
+
+.task-list a {
+    display : inline-block;
+	
+}
+
+.task-list p {
+	margin-top : none!important;
+}
+
+
+.task-text {
+	font-size : 14px;
+    margin-bottom : 1.5rem;
+    width : 80%;
+    float : left;
+	 white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+	
+}
+
+.task-date-time {
+    display: flow-root;
+    text-align : right;
+    padding-right : 0.4rem;
+	padding-left : 0rem;
+	font-size : 13px;
+}
+
+.task-body { 
+    margin-top :6rem;
+    margin-left : 32rem;
+    padding-top : 0.5rem;
+    padding-left : 2rem;
+    padding-bottom : 2rem;
+}
+
+.task-body h2 {
+    padding-bottom : 1.6rem;
+    border-bottom : 1px solid #C5C5C5;
+    margin-right : 10rem;
+}
+
+.task-body h3 {
+    margin-top : 2.8rem;
+}
+
+.task-body p {
+    padding-bottom : 0.7rem;
+    margin-right : 10rem;
+    border-bottom : 1px solid #C5C5C5;
+}
+
+#taskbody-datecontainer {
+    padding-top : 0.4rem;
+    margin-bottom : 0.4rem;
+    margin-right : 10rem;
+}
+
+#taskbody-datecontainer p {
+	padding-bottom : 1.6rem;
+}
+
+.task-name h6 {
+       color : #61B54D;
+}
+
+.task-body label {
+    margin-bottom : 0;
+}
+
+.task-body input {
+    display : inline;
+    color : #FFF;
+    border : none;
+}
+
+#taskbody-textcontainer label {
+    padding-top : 0.6rem;
+    padding-bottom : 2rem;
+}
+
+.btnFormMobile {
+	display : none;
+}
+
+#mobileClose {
+	display : none;
+}
+
+#taskbody-textcontainer p {
+    padding-bottom : 1.6rem;
+}
+
+.alert-error {
+	display: none;
+}
+
+.popupForm {
+	display : none;
+	position : fixed;
+	z-index : 1;
+	left : 0;
+	top : 0;
+	width : 100%;
+	height : 100%;
+	overflow : auto;
+	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.popupContent {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 35px;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.popupFormHeader {
+	text-align : center;
+	padding-bottom : 1rem;
+}
+
+#newTaskForm {
+	padding : 25px;
+}
+
+.popoutFormBtn {
+	 margin: auto;
+    margin-top: 2rem;
+    background-color: #336d41;
+	color : #FFF;
+	border : none;
+    font-size: 18px;
+    padding: 0.6rem;
+}
+
+#newTaskSubmit {
+	float: right;
+	
+}
+
+.btnEditTask {
+	background-color : #336D41;
+	color : #FFF;
+}
+
+#editTaskSubmit {
+	float : right;
+}
+
+#taskInputTaskDate {
+	width : 49%;
+	display : inline;
+}
+
+#taskInputTaskTime {
+	width: 49%;
+	display : inline;
+}
+
+#projectHeadContainer {
+	margin-top: 5rem;
+}
+
+#projectHead {
+	padding-left: 3rem;
+}
+
+#projectHeadAdd {
+	padding-left : 0!important;
+	padding-right: 25px;
+}
+
+#addNewProjectSubtask {
+	float: right;
+	color: #FFF;
+    background-color: #336D41;
+    border: none;
+    padding: 0.3rem;
+}
+
+#firstSubtask {
+	float: right;
+	padding: 0.3rem;
+	padding-right : 0.5rem
+		
+}
+
+#projectTaskContainer {
+	padding-right: 0!important;
+}
+
+#projectTasksList {
+	margin-top: 3.2rem;
+	width: 100%;
+}
+
+.project-list-item {
+	padding: .56rem 1.25rem!important;
+}
+
+.project-list-item a {
+	font-size : 16px!important;
+}
+
+#projectChartContainer {
+	padding-left: 0!important;
+}
+
+#newSubtaskPopupContainer {
+	display : none;
+}
+
+#editProjectSubmit {
+	float:right;
+}
+
+#newProjectSubmit {
+	float:right;
+}
+
+#newSubtaskSubmit {
+	float: right;
+}
+
+#editSubtaskPopupContainer {
+	display : none;
+}
+
+#editSubtaskSubmit {
+	float: right;
+}
+
+.nav-project-edit {
+	font-size : 18px;
+	cursor: pointer;
+	padding-right : 8px;
+	padding-bottom: 5.5px;
+}
+
+.nav-project-delete {
+	font-size : 18px;
+	cursor: pointer;
+}
+
+.project-edit {
+	font-size : 18px;
+	cursor: pointer;
+	padding-right : 8px;
+	padding-bottom: 5.5px;
+}
+
+.project-delete {
+	font-size : 18px;
+	cursor: pointer;
+}
+
+.project-task-min {
+		display: none;
+}
+
+.proj-hidden {
+	display: none;
+}
+
+.ProfileFormLabel {
+	font-size: 18px;
+}
+
+.profile-form-group {
+	 padding-top: 4rem;
+    padding-left: 6rem;
+    margin-left: 5rem;
+    padding-right: 6rem;
+    margin-right: 5rem;
+    padding-bottom: 5em;
+    border: 2px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 60%) 0 0 15px;
+}
+
+
+
+
+@media only screen and (max-width : 768px) {
+    #taskaside {
+        max-width: 300px;
+    }
+	
+	.lower-task-nav {
+		margin-left : 5.5rem;
+	}
+
+        #task-list-sidebar p {
+        transition: 0.5s;
+        font-size: 12px;
+    }
+	.project-task-min {
+		display: inline;
+	}
+	
+	.task-body {
+		margin-left: 20rem!important;	
+	}
+	
+	.lower-task-nav {
+		margin-left : 0rem!important;
+	}
+	
+	.navbar-nav {
+		
+	}
+	
+	#date-nav h5 {
+		font-size: 16px;
+	}
+
+}
+
+@media only screen and (max-width : 640px) {
+	#mainLogo {
+		display : none;
+	}
+    .navbar ul {
+        display : inline;
+		margin-left : 0!important;
+    }
+    #main-second {
+        font-size : 9px;
+    }
+    .img-fluid {
+        width: 50%;
+    }
+	#signin-header-container {
+		display : none;
+	}
+    #login-form-container {
+        margin : 0rem;
+    }
+	#login-form-actual {
+		    position: absolute;
+			top: 0px;
+			right: 0px;
+			bottom: 0px;
+			left: 0px;
+	}
+	.mobile-signin-head {
+		display:block;
+	}
+    .signin-form-group {
+        padding-top : 6.5rem;
+        padding-left : 0.8rem;
+        margin-left : 0;
+        padding-right : 0.8rem;
+        margin-right : 0;
+        padding-bottom : 14rem;
+        margin-bottom : 0rem;
+        height : 100%;
+    }
+    #task-list-sidebar p {
+        transition: 0.5s;
+        font-size: 11px;
+    }
+    .task-list-head {
+        font-size : 16px;
+    }
+    #date-nav h4 {
+        font-size : 18px;
+    }
+    .task-name h6 {
+        font-size : 14px;
+    }
+    #taskaside {
+        max-width : 640px;
+    }
+	#taskbody-datecontainer {
+	
+		margin-right : 0rem!important;
+	}
+
+    .lower-task-nav {
+        display : none;
+    }
+	.img-fluid {
+		width: 100%!important;
+	}
+	.task-body {
+		display : block;
+		margin : auto;
+		z-index : 1;
+		background-color : #fff;
+		height : 100%;
+		padding-top: 6rem;
+		margin-left : 0!important;
+	}
+	
+.btnFormMobile {
+		display : inline-block;
+	}
+	
+	.task-body p {
+		
+		margin-right : 0rem!important;
+	
+	}
+	
+	#mobileClose {
+	  display : inline;
+	  color: #aaa;
+	  float: right;
+	  font-size: 50px;
+	  font-weight: bold;
+	}
+	
+	#mobileClose:hover,
+	#mobileClose:focus {
+	 display : inline;
+	 color: #000;
+	 text-decoration: none;
+	 cursor: pointer;
+}
+	.overlayNav a {
+		font-size: 25px;
+	}
+	#addNewProjectSubtask {
+		float:left;
+		margin-left: 3rem;
+		margin-top: 1em;
+}
+
+	
+    
+}
+
+@media only screen and (max-width : 300px) {
+	   #taskaside {
+        max-width : 300px;
+   	 }
+        #task-list-sidebar p {
+        transition: 0.5s;
+        font-size: 9px;
+    }
+		.img-fluid {
+		width: 100%!important;
+	
+}
+
+
+@media only screen and  (min-width: 576px) {
+	
+	#taskaside :{
+		max-width : 300px!important;
+	}
+
+	
+	
+}
+	
+#chart_div {
+	margin-left: 2rem;
+}
+
